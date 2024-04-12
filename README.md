@@ -10,8 +10,8 @@
 
 **Step1: Derive the token importance on each task**
 
-Similar to AdapLer, we first derive the gradient information from each task. Running code about fine-tuning/saliency maps (in AdapLer directory) results in the importance distribution of each token.
-
+Similar to AdapLer, we first derive the gradient information from each task. Running code about fine-tuning/saliency maps (in AdapLer directory, please refer to the README) results in the importance distribution of each token.
+[Original AdapLer repository: https://github.com/amodaresi/AdapLeR]
 
 **Step2: Train LoT with the derived importance**
 Running 
